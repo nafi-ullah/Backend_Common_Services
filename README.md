@@ -10,6 +10,9 @@ mongosh --host localhost:27017 -u root -p root --authenticationDatabase admin
 ### from mycomputer:
 <b>ubuntu:</b>
 
+Install Community Edition:
+- https://www.mongodb.com/docs/manual/tutorial/install-mongodb-on-ubuntu/#std-label-install-mdb-community-ubuntu
+
 ```
 $ sudo systemctl start mongod
 $ mongosh
