@@ -1,5 +1,39 @@
-Hackathon 2023
-==============
+Api Test for Mongo Local/Cloud
+===============================
+
+#Access :
+
+
+##from docker:
+mongosh --host localhost:27017 -u root -p root --authenticationDatabase admin
+
+###from mycomputer:
+<b>ubuntu:</b>
+
+```
+$ sudo systemctl start mongod
+$ mongosh
+$ mongosh –quiet  // no extra information
+```
+
+<b>In General:</b>
+⇒ install mongodb compass
+
+
+#Commands:
+
+```
+> show dbs;
+> use demoDatabase;
+> db.createCollection(“contacts”);
+> db.dropDatabase();
+> show collections;
+> db.users.insert({“name”:”nafi”});
+```
+
+
+
+
 
 You will have to design several API endpoints which will be tested against multiple input data. Make sure to follow
 specifications for each endpoint as outlined in the following sections.
