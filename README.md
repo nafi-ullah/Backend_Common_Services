@@ -1,10 +1,10 @@
 Api Test for Mongo Local/Cloud
 ===============================
 
-# Access :
+## Access :
 
 
-## from docker:
+### from docker:
 mongosh --host localhost:27017 -u root -p root --authenticationDatabase admin
 
 ### from mycomputer:
@@ -23,7 +23,7 @@ $ mongosh –quiet  // no extra information
 ⇒ install mongodb compass
 
 
-# Commands:
+## Commands:
 
 ```
 > show dbs;
